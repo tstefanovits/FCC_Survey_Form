@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"></div>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Help us learn more about your coding habits</p>
+
+        <form id="survey-form">
+
+        <!-- NAME -->
+            <div class="input-data">
+                <label id="name-label" for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Full name or nickname" required="required">
+            </div>
+
+        <!--E-mail-->
+            <div class="input-data">
+                <label id="email-label" for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail address" required="required">
+            </div>
+    
+        <!--Age-->
+            <div class="input-data">
+                <label id="number-label" for="age">Age:</label>
+                <input type="number" name="age" id="number" placeholder="Your age" min="1" max="130" step="1" required="required">
+            </div>
+
+        <!--Job-->
+            <div class="input-data">
+                <label id="position-label" for="position">What is your position?</label>
+                <input type="text" name="position" id="position" placeholder="Your position" required="required">
+            </div>
+
+        <!--Programming language-->
+            <div class="dropdown">
+                <label for="dropdown">What is your favourite programming language?</label>
+                <select id="dropdown">
+                    <option disabled selected value>-- select one --</option>
+                    <option>Javascript</option>
+                    <option>Java</option>
+                    <option>C</option>
+                    <option>C#</option>
+                    <option>C++</option>
+                    <option>Objective C</option>
+                    <option>Swift</option>
+                    <option>Kotlin</option>
+                    <option>Python</option>
+                    <option>C++</option>
+                    <option>Perl</option>
+                    <option>Scala</option>
+                    <option>Ruby</option>
+                    <option>Go</option>
+                    <option>R</option>
+                </select>
+            </div>
+
+        <!--IDE-->
+            <div class="dropdown">
+                <label for="dropdown">What is your favourite IDE/Editor?</label>
+                <select id="dropdown">
+                    <option disabled selected value>-- select one --</option>
+                    <option>Android Studio</option>
+                    <option>Notepad++</option>
+                    <option>Eclipse</option>
+                    <option>Visual Studio</option>
+                    <option>Visual Studio Code</option>
+                    <option>Xcode</option>
+                    <option>IntellJ Idea</option>
+                    <option>JetBrains Webstorm</option>
+                    <option>NetBeans</option>
+                    <option>PhpStorm</option>
+                    <option>DataGrip</option>
+                    <option>Sublime Text</option>
+                    <option>Code::Blocks</option>
+                </select>
+            </div>
+            
+        <!--Experience-->
+            <div class="radiobuttons">
+                <p for="experience">I have ... years experience. </p>
+            </div>  
+            <div class="answers" tabindex="0">
+                <input name="years" type="radio" value="1" id="first">
+                <label for="first">0-2</label>
+            </div>
+            <div class="answers" tabindex="0">
+                <input name="years" type="radio" value="2" id="second">
+                <label for="second">2-4</label>
+            </div>
+            <div class="answers" tabindex="0">
+                    <input name="years" type="radio" value="3" id="third">
+                    <label for="third">4-6</label>
+            </div>
+            <div class="answers" tabindex="0">
+                    <input name="years" type="radio" value="4" id="fourth">
+                    <label for="fourth">6-8</label>
+            </div>
+            <div class="answers" tabindex="0">
+                    <input name="years" type="radio" value="4" id="fifth">
+                    <label for="fifth">8-10</label>
+            </div>
+
+        <!--Workplace-->
+            <div class="checkboxes">
+                <p>What elements are important to you in your workplace? (Check all that apply):</p>
+            </div>
+            <div class="answers">
+                <ul id="preferences" style="list-style: none;">
+                    <li class="checkbox"><label><input name="preferable" value="1" type="checkbox" class="userRatings">Comfortable office</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="2" type="checkbox" class="userRatings">Smiling co-workers</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="3" type="checkbox" class="userRatings">Training programs</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="4" type="checkbox" class="userRatings">Open-minded people around</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="5" type="checkbox" class="userRatings">Free coffee / snacks</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="6" type="checkbox" class="userRatings">Free gym</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="7" type="checkbox" class="userRatings">Fun room</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="8" type="checkbox" class="userRatings">Great indoor design</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="9" type="checkbox" class="userRatings">Flexible schedule / hours</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="10" type="checkbox" class="userRatings">Ergonomic keyboard / mouse</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="11" type="checkbox" class="userRatings">Standing desk</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="12" type="checkbox" class="userRatings">Two ore more monitors</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="13" type="checkbox" class="userRatings">Salary and/or bonuses</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="14" type="checkbox" class="userRatings">Health insurance</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="15" type="checkbox" class="userRatings">Stock options or shares</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="16" type="checkbox" class="userRatings">Conference or education budget</label></li>
+                    <li class="checkbox"><label><input name="preferable" value="17" type="checkbox" class="userRatings"></label>Childcare benefit</li>
+                    <li class="checkbox"><label><input name="preferable" value="18" type="checkbox" class="userRatings"></label>Transportation benefit</li>
+                    <li class="checkbox"><label><input name="preferable" value="19" type="checkbox" class="userRatings"></label>Home / remote work</li>
+                </ul>
+            </div>     
+        </form>
+    </div>    
+</body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
