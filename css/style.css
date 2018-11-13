@@ -29,10 +29,10 @@ p {
 
 form {
     background-color: #1D3557;
-    margin: 0 auto;
+    margin: auto;
     border-radius: 4px;
-    width: 75%;
-    max-width: 900px;
+    width: 46em;
+    text-align: left;
     padding: 10px;
     padding-top: 20px;
 }
