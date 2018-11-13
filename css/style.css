@@ -12,3 +12,34 @@ h1 {
     color: #00bfa5;
     font-size: 4em;
 }
+
+p {
+    font-size: 1em;
+}
+
+form {
+    height: auto;
+    width: 100%;
+    background-color: #00bfa5;
+    text-align: center;
+    line-height: 3em;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input,
+textarea {
+    font-size: 1.2em;
+    color: white;
+    width: 20em;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0.5em;
+}
+
+input {
+    border-bottom: 2px solid white;
+  }
