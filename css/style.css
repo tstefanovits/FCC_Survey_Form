@@ -1,5 +1,14 @@
+html,
 body {
     background-color: #263238;
     color: white;
     text-align: center;
+    font-family: "Questrial", sans-serif;
+    min-width: 320px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #00bfa5;
+    font-size: 4em;
 }
