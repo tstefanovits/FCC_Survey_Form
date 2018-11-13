@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #263238;
+    background-color: #E63946;
     color: white;
     text-align: center;
     font-family: "Questrial", sans-serif;
@@ -8,7 +8,7 @@ body {
 }
 
 #container {
-    background-color: rgb(250, 250, 250);
+    background-color: #F1FAEE;
     margin: 0 auto;
     border-radius: 4px;
     width: 75%;
@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    color: #00bfa5;
+    color: #F1FAEE;
     font-size: 4em;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 form {
-    background-color: #00bfa5;
+    background-color: #1D3557;
     margin: 0 auto;
     border-radius: 4px;
     width: 75%;
@@ -44,7 +44,7 @@ label {
 input,
 textarea {
     font-size: 1.2em;
-    color: white;
+    color: #F1FAEE;
     width: 20em;
     border: none;
     outline: none;
@@ -53,12 +53,17 @@ textarea {
 }
 
 input {
-    border-bottom: 2px solid black;
-    opacity: 0.8;
+    border-bottom: 2px solid #F1FAEE;
+    opacity: 1.0;
 }
 
+input::-webkit-input-placeholder {
+    color: #F1FAEE;
+    opacity: 0.8;
+  }
+
 textarea {
-    border: 2px solid white;
+    border: 2px solid #F1FAEE;
     margin: auto;
 }
 
